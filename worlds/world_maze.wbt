@@ -10,7 +10,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation 0.4958900510340382 -0.21262099465607923 -0.841953306256896 3.8344703735137426
-  position 2.2425033152708487 -2.294616759798483 5.045952755165773
+  position 2.2615309407879844 -2.314608553443307 5.0957313040386225
 }
 TexturedBackground {
 }
@@ -20,6 +20,7 @@ RectangleArena {
   floorSize 2 2
 }
 E-puck {
+  controller "wall-follower-controller"
 }
 Wall {
   translation -0.07 0 0
